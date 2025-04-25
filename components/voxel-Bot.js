@@ -13,7 +13,7 @@ function easeOutCirc(x) {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const urlBotGLB = (process.env.NODE_ENV === 'production' ? 'https://mfloyd0-homepage-ills93fxv-marquises-projects-35d0105e.vercel.app/' : '') + '/robot2.glb'
+    //const urlBotGLB = (process.env.NODE_ENV === 'production' ? 'https://mfloyd0-homepage-ills93fxv-marquises-projects-35d0105e.vercel.app/' : '') + '/robot2.glb'
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
@@ -71,21 +71,21 @@ function easeOutCirc(x) {
       controls.autoRotate = true
       controls.target = target
 
-      // loadGLTFModel(scene, '/Robot2.glb', {
-      //   receiveShadow: false,
-      //   castShadow: false
-      // }).then(() => {
-      //   animate()
-      //   setLoading(false)
-      // })
-
-      loadGLTFModel(scene, urlBotGLB, {
+      loadGLTFModel(scene, '/Robot2.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
         animate()
         setLoading(false)
       })
+
+      // loadGLTFModel(scene, urlBotGLB, {
+      //   receiveShadow: false,
+      //   castShadow: false
+      // }).then(() => {
+      //   animate()
+      //   setLoading(false)
+      // })
 
       let req = null
       let frame = 0
