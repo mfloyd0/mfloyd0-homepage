@@ -13,7 +13,7 @@ function easeOutCirc(x) {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const urlBotGLB = (process.env.NODE_ENV === 'production' ? '/' : '') + '/robot2.glb'
+    const urlBotGLB = (process.env.NODE_ENV === 'production' ? 'https://mfloyd0-homepage-ills93fxv-marquises-projects-35d0105e.vercel.app/' : '') + '/robot2.glb'
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
