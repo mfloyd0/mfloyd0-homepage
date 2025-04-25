@@ -86,7 +86,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             <LinkItem
               target="_blank" 
               rel="noopener noreferrer"
-              href="https://github.com/mfloyd0"
+              href="https://github.com/mfloyd0/mfloyd0-homepage"
               path={path}
               display="inline-flex"
               alignItems="center"
@@ -121,7 +121,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
                   </MenuItem>
                   <MenuItem
                     as={Link}
-                    href="https://github.com/mfloyd0"
+                    href="https://github.com/mfloyd0/mfloyd0-homepage"
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
