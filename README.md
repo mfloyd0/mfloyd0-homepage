@@ -2,4 +2,4 @@
 
 https://www.mfloyd0.com
 
-Credit for the website design goes to https://www.craftz.dog/
+This website is built based on the <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama's website</a>.
