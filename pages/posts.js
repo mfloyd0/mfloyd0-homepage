@@ -4,7 +4,8 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 
-import thumbscomingsoon from '../public/images/contents/coming-soon.jpg'
+import thumbcomingsoon from '../public/images/contents/coming-soon.jpg'
+import thumbfirstblog from '../public/images/contents/first_blog_thumbnail.jpeg'
 
 
 const Posts = () => (
@@ -17,12 +18,15 @@ const Posts = () => (
         <Section delay={0.1}>
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
-              title="Blog Coming Soon!!!"
-              thumbnail={thumbscomingsoon}
+              title="My First Blog as a Developer Building and Learning Things"
+              thumbnail={thumbfirstblog}
+              href="https://blog.mfloyd0.com/my-first-blog-as-a-developer-building-and-learning-things"
+              target="_blank" 
+              rel="noopener noreferrer"
             />
             <GridItem
               title="Coming Later!!!!"
-              thumbnail={thumbscomingsoon}
+              thumbnail={thumbcomingsoon}
             />
           </SimpleGrid>
         </Section>
