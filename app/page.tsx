@@ -49,7 +49,7 @@ export default function Home() {
                 View Projects
               </a>
               <a
-                href="mailto:jordan.carter@example.com"
+                href="mailto:mloyd0.dev@gmail.com"
                 className="inline-flex h-12 items-center justify-center rounded-md border border-[#334155] px-6 font-medium transition hover:border-[#c084fc] hover:text-[#c084fc]"
               >
                 Email Me
