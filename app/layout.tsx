@@ -42,7 +42,7 @@ export default function RootLayout({
             </p>
           </div> 
           <div className="flex flex-col gap-3 text-[#bac6d3] sm:flex-row">
-            <a className="transition hover:text-white" href="mailto:mloyd0.dev@gmail.com">
+            <a className="transition hover:text-white" href="mailto:mfloyd0.dev@gmail.com">
               Email
             </a>
             <a
